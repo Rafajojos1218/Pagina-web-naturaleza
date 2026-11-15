@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    background-color: #e8f5e9;
+    color: #26382a;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    word-spacing: 2px;
+    margin: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #2e7d32;
+    text-shadow: 2px 2px 4px #1b5e20;
+}
+
+/* Menú */
+.menu {
+    background-color: #1b5e20;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    background-color: #81c784;
+    color: #1b5e20;
+    border-radius: 5px;
+}
+
+/* Títulos y secciones */
+h2 {
+    color: #2e7d32;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Tarjetas */
+.card {
+    border: 1px solid #81c784;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px #a5d6a7;
+}
+
+.card-title {
+    color: #2e7d32;
+}
+
+/* Información de los temas */
+.tema {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2e7d32;
+    background-color: #f1f8e9;
+}
+
+.tema h3 {
+    color: #1b5e20;
+}
+
+/* Enlaces */
+a {
+    color: #1b5e20;
+}
+
+a:hover {
+    color: #66bb6a;
+}
+
+/* Pie de página */
+.pie {
+    background-color: #1b5e20;
+}
+
+.pie p {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/* Imagen del autor */
+#autor img {
+    border: 3px solid #2e7d32;
+}
